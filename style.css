@@ -1,0 +1,77 @@
+@import url("style/motivos.css");
+@import url("style/principal.css");
+@import url("style/beneficios.css");
+@import url("style/footer.css");
+@import url("style/escrita.css");
+@import url("style/header.css");
+@import url("style/efeito.css");
+
+.reciclagem {
+ border-radius: 4em;
+ border-width: 2em;
+ border-color: green;
+ border-style: solid;
+}
+
+body {
+ background-color: #90EE90;
+}
+
+main {
+  background-color: #FFFFFF;
+    border-radius: 95px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+  nav {
+    position: absolute;
+    top: 3.5em;
+    right: 1em;
+  }
+
+  nav a {
+  font-size: 0.6em;
+  padding: 0.1em;
+  }
+
+  nav a:hover {
+    color: #008000;
+    text-decoration: underline;
+  }
+
+  nav li {
+    position: relative;
+    top: 2.5px;
+    padding: 0.3em;
+
+  }
+
+
+  .logo {
+    display: inline-block;
+    width: 8em;
+    height: 8em;
+  }
+
+
+  .fotos {
+      border-width: 0.8em;
+    margin: 1.8em;
+    width: 14.5em;
+    height: 14.5em;
+    border-radius: 4em;
+  }
+
+  .reciclagem {
+   border-radius: 4em;
+   border-width: 1.3em;
+   border-color: green;
+   border-style: solid;
+  }
+}

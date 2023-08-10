@@ -1,0 +1,54 @@
+
+.beneficios {
+margin-top: 3em;
+ width: 60em;
+  height: 50em;
+  border-radius: 95px;
+  border-width: 1em;
+  border-color: green;
+  border-style: solid;
+}
+
+@media screen and (max-width: 1200px) {
+
+      nav {
+        position: absolute;
+        top: 3.5em;
+        right: 1em;
+      }
+
+      nav a {
+      font-size: 0.6em;
+      padding: 0.1em;
+      }
+
+      nav a:hover {
+        color: #008000;
+        text-decoration: underline;
+      }
+
+      nav li {
+        position: relative;
+        top: 2.5px;
+        padding: 0.3em;
+
+      }
+
+
+      .logo {
+        display: inline-block;
+        width: 8em;
+        height: 8em;
+      }
+
+  .beneficios {
+  margin-top: 3em;
+   width: 50em;
+    height: 45em;
+    border-radius: 95px;
+    border-width: 1em;
+    border-color: green;
+    border-style: solid;
+
+  }
+}
